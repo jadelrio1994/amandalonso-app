@@ -1,9 +1,10 @@
 import React from 'react'
+import { AppRouter } from './style/components/AppRouter'
 
 function App() {
   return (
     <div className="app__container">
-      <h1>Puto Sitio</h1>
+      <AppRouter />
     </div>
   );
 }
