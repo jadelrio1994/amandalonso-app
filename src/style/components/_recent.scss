@@ -1,0 +1,23 @@
+.recent__container {
+  height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  background-color: lighten($color: lightgreen, $amount: 30);
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.recent__sliceSections {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.recent__sliceItem {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

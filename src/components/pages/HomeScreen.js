@@ -1,5 +1,5 @@
 import React from "react";
-import { GalleryApp } from "../GalleryApp";
+import { RecentApp } from "../RecentApp";
 
 export const HomeScreen = () => {
   return (
@@ -8,7 +8,7 @@ export const HomeScreen = () => {
         <img src="../img/fondo1.jpg" alt="" />
       </div>
 
-      <GalleryApp />
+      <RecentApp />
     </div>
   );
 };
