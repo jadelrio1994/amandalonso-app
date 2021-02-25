@@ -1,0 +1,44 @@
+.login__container {
+  width: 100vw;
+  height: 100vh;
+  background-color: lighten($color: aqua, $amount: 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__registerCard,
+.login__loginCard {
+  background-color: aliceblue;
+  padding: 1.8rem;
+  margin: .3rem;
+  box-shadow: .3rem .2rem .5rem gray;
+  box-shadow: -.1rem -.1rem .1rem gray inset;
+  border-radius: .3rem;
+  
+}
+.login__loginForm, 
+.login__registerForm {
+  margin: .2rem;
+}
+
+.login__input {
+  margin: .3rem auto;
+}
+
+@media (max-width: 430px) {
+  .login__cards {
+    flex-direction: column;
+  }
+}
